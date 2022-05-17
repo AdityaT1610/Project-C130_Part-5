@@ -37,11 +37,6 @@ function gotPoses(results)
     }
 }
 
-function modelLoaded()
-{
-    console.log("PoseNet is Initialised!");
-}
-
 
 function draw()
 {
@@ -81,4 +76,9 @@ function draw()
         }
 
     }
+}
+
+function modelLoaded()
+{
+    console.log("PoseNet is Initialised!");
 }
